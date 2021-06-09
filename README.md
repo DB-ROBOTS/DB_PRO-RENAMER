@@ -21,7 +21,7 @@
 Use [Rename Robot](https://telegram.dog/mwk_renamebot) 
 
 #### The Simple Way
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy:https://github.com/DB-ROBOTS/DB_PRO-RENAMER)
 
 ###### While deplying on heroku kindly add buildback of ffmpeg
 
