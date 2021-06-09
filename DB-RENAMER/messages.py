@@ -1,14 +1,20 @@
 class Translation(object):
-    START_TEXT = """**Hello,
-This is a Telegram Rename Bot by @shamilnelli 😇
+    START_TEXT = """**🤓👋ʜɪ ʜᴇʟᴏᴏ,
 
-Please send me any File, i can Rename It As Per Your choices to telegram as File/Video
+••••••••••••••••••••••••••••••••••••••••••••••
 
-Hit /help for more details.. and more thing waiting for u there 😉**"""
+✏️𝐈 𝐀𝐌 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌 𝐅𝐈𝐋𝐄 𝐑𝐄𝐍𝐀𝐌𝐄𝐑 𝐑𝐎𝐁𝐎𝐓📝
+
+💡𝗡𝗢𝗧𝗘 :-
+🥳𝑺𝒆𝒏𝒅 𝒎𝒆 𝒂𝒏𝒚 𝑭𝒊𝒍𝒆, 𝒊 𝒄𝒂𝒏 𝑹𝒆𝒏𝒂𝒎𝒆 𝑰𝒕 𝑨𝒔 𝑷𝒆𝒓 𝒀𝒐𝒖𝒓 𝒄𝒉𝒐𝒊𝒄𝒆𝒔 𝒕𝒐 𝒕𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝒂𝒔 𝑭𝒊𝒍𝒆/𝑽𝒊𝒅𝒆𝒐.🎬
+
+🔬𝙱𝙾𝚃 𝙼𝙰𝙸𝙽𝚃𝙰𝙸𝙽𝙴𝙳 𝙱𝚈 :- 🛡️@DB_ROBOTS🛡️**"""
 ######################
-    HELP_USER = """**1 >>Send File/Video\n2 >>Choose Your desired Option\n3 >>Wait for it to process files**"""
-    DOWNLOAD_MSG = "**Yup Bro, Downloading....**😌"
-    DOWNLOAD_FAIL_MSG = "**Sorry Baby 😔, Something Error With Your File**❎"
-    UPLOAD_MSG = "**Yeah Boy, Uploading it**🤓"
+    HELP_USER = """**
+
+💡 𝗕𝗢𝗧'𝗦 𝗛𝗘𝗟𝗣\n\n🔰 Sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ Fɪʟᴇ/Vɪᴅᴇᴏ,\n🔰 Cʜᴏᴏsᴇ Yᴏᴜʀ ᴅᴇsɪʀᴇᴅ Oᴘᴛɪᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ,\n🔰 Wᴀɪᴛ ғᴏʀ ɪᴛ ᴛᴏ ᴘʀᴏᴄᴇss ғɪʟᴇs, \n🔰 ʀᴇᴀᴅ ᴛʜᴇ ɪɴsᴛʀᴜᴄᴛɪᴏɴ ɴᴇᴀᴛʟʏ**"""
+    DOWNLOAD_MSG = "**🕵️ʏᴀᴀ, ɪᴛs ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ sᴛᴀʏ ᴛᴜɴᴇᴅ**🤫"
+    DOWNLOAD_FAIL_MSG = "**Something Error With Your File**❎"
+    UPLOAD_MSG = "**🕺ʏᴇs, ᴜʀs ғɪʟᴇ ᴜᴘʟᴏᴀᴅɪɴɢ ᴠᴇʀʏ sᴏᴏɴ**🤓"
     UPLOAD_FAIL_MSG = "**Sorry Baby 😔, Something Error With Your File**❎"
-    UPLOAD_DONE_MSG = "**Finally Uploaded Join My Update Channel.. if you like me 🤪"
+    UPLOAD_DONE_MSG = "**🥳𝒀𝑬𝑨𝑯,\n🔰𝑭𝒊𝒏𝒂𝒍𝒚 𝒖𝒑𝒍𝒐𝒂𝒅𝒆𝒅 𝒖𝒓𝒔 𝒇𝒊𝒍𝒆,𝑰𝒇 𝒖 𝒍𝒊𝒏𝒌 𝒕𝒉𝒊𝒔 𝑩𝒐𝒕,𝒑𝒍𝒛 𝒋𝒐𝒊𝒏 𝒐𝒖𝒓 𝒂𝒍𝒍 𝒄𝒉𝒂𝒏𝒏𝒆𝒍𝒔 🔰"
