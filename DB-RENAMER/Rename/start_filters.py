@@ -30,9 +30,12 @@ async def help_user(c,m):
                return
         except UserNotParticipant:
             await m.reply_text(
-                text="**Join My Updates Channel to use me & Enjoy the Free Service**",
+                text="**🕵️𝗡𝗢𝗧 𝗪𝗢𝗥𝗞𝗜𝗡𝗚 𝗞𝗡𝗢𝗪😂\n\n🥳𝑱𝒐𝒊𝒏 𝑮𝒊𝒗𝒆𝒏 𝑩𝒆𝒍𝒐𝒘 👇 𝑪𝒉𝒂𝒏𝒏𝒆𝒍𝒔 𝒕𝒐 𝒖𝒔𝒆 𝒎𝒆 𝒐𝒌𝒌 & 𝑬𝒏𝒋𝒐𝒚 𝒕𝒉𝒆 𝑭𝒓𝒆𝒆 𝑺𝒆𝒓𝒗𝒊𝒄𝒆 😍**",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join Our Updates Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="🔰𝐉𝐎𝐈𝐍 𝐎𝐔𝐑𝐒 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 𝐂𝐇𝐋🔰", url=f"https://t.me/{update_channel}")],
+                  [ InlineKeyboardButton(text="🎬𝑱𝑶𝑰𝑵 𝑶𝑼𝑹 𝑨𝑳𝑳 𝑪𝑯𝑨𝑵𝑵𝑬𝑳𝑺🎬", url=f"https://t.me/UNI_MOVIES_BOX")]
+
+              ]
               ])
             )
             return
@@ -52,21 +55,26 @@ async def start_msg(c,m):
                return
         except UserNotParticipant:
             await m.reply_text(
-                text="**Join My Updates Channel to use me & Enjoy the Free Service**",
+                text="**🕵️𝗡𝗢𝗧 𝗪𝗢𝗥𝗞𝗜𝗡𝗚 𝗞𝗡𝗢𝗪😂\n\n🥳𝑱𝒐𝒊𝒏 𝑮𝒊𝒗𝒆𝒏 𝑩𝒆𝒍𝒐𝒘 👇 𝑪𝒉𝒂𝒏𝒏𝒆𝒍𝒔 𝒕𝒐 𝒖𝒔𝒆 𝒎𝒆 𝒐𝒌𝒌 & 𝑬𝒏𝒋𝒐𝒚 𝒕𝒉𝒆 𝑭𝒓𝒆𝒆 𝑺𝒆𝒓𝒗𝒊𝒄𝒆 😍**",
+
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join Our Updates Channel", url=f"https://t.me/{update_channel}")]
-              ])
+
+                    [ InlineKeyboardButton(text="🔰𝐉𝐎𝐈𝐍 𝐎𝐔𝐑𝐒 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 𝐂𝐇𝐋🔰", url=f"https://t.me/{update_channel}")],
+
+                  [ InlineKeyboardButton(text="🎬𝑱𝑶𝑰𝑵 𝑶𝑼𝑹 𝑨𝑳𝑳 𝑪𝑯𝑨𝑵𝑵𝑬𝑳𝑺🎬", url=f"https://t.me/UNI_MOVIES_BOX")]
+
+ ])
             )
             return
     await m.reply_text(Translation.START_TEXT.format(m.from_user.first_name),
         reply_markup=InlineKeyboardMarkup(
             [
                [
-                InlineKeyboardButton("⚙ Updates Channel", url=f"https://t.me/mwklinks"),
-                    InlineKeyboardButton("🛠 Support Group", url=f"https://t.me/redbullfed")
+                InlineKeyboardButton("🔬𝙹𝙾𝙸𝙽 𝙾𝚄𝚁𝚂 𝙱𝙾𝚃𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻🎬", url=f"https://t.me/DB_ROBOTS")],
+                   [ InlineKeyboardButton("🎬𝙹𝙾𝙸𝙽 𝙾𝚄𝚁 𝙰𝙻𝙻 𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙷𝙻🎬", url=f"https://t.me/UNI_MOVIES_BOX")
                 ],
                 [
-                    InlineKeyboardButton("👨‍🔬 Developer", url=f"https://t.me/shamilnelli")
+                    InlineKeyboardButton("👨‍🔬 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 🛡️", url=f"https://t.me/Deeks_04_8")
                 ]
             ]
         ),
