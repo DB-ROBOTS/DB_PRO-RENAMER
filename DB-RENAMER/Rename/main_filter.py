@@ -21,10 +21,11 @@ async def rename_filter(c,m):
                await m.reply_text("🤭 Sorry Dude, You are **B A N N E D**. If you feel You are not guilty please contact owner")
                return
         except UserNotParticipant:
-            await m.reply_text(
-                text="**Join My Updates Channel to use me & Enjoy the Free Service**",
+            await text="**🕵️𝗡𝗢𝗧 𝗪𝗢𝗥𝗞𝗜𝗡𝗚 𝗞𝗡𝗢𝗪😂\n\n🥳𝑱𝒐𝒊𝒏 𝑮𝒊𝒗𝒆𝒏 𝑩𝒆𝒍𝒐𝒘 👇 𝑪𝒉𝒂𝒏𝒏𝒆𝒍𝒔 𝒕𝒐 𝒖𝒔𝒆 𝒎𝒆 𝒐𝒌𝒌 & 𝑬𝒏𝒋𝒐𝒚 𝒕𝒉𝒆 𝑭𝒓𝒆𝒆 𝑺𝒆𝒓𝒗𝒊𝒄𝒆 😍**",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join Our Updates Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="🔰𝐉𝐎𝐈𝐍 𝐎𝐔𝐑𝐒 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 𝐂𝐇𝐋🔰", url=f"https://t.me/{update_channel}")],
+                  [ InlineKeyboardButton(text="🎬𝑱𝑶𝑰𝑵 𝑶𝑼𝑹 𝑨𝑳𝑳 𝑪𝑯𝑨𝑵𝑵𝑬𝑳𝑺🎬", url=f"https://t.me/UNI_MOVIES_BOX")]
+  
               ])
             )
             return
@@ -38,15 +39,15 @@ async def rename_filter(c,m):
     # some files dont gib name ..
       filename = None 
     
-    text += "Select the desired Option"
-    button.append([InlineKeyboardButton("📂 Rename as File 📂", callback_data="rename_file")])
+    text += "𝙷𝙰𝙰 𝙽𝙾𝚆,𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙴𝙻𝙴𝙲𝚃 𝚃𝙷𝙴 𝙳𝙸𝚂𝙸𝚁𝙴𝙳 𝙶𝙸𝚅𝙴𝙽 𝙱𝙴𝙻𝙾𝚆 𝙾𝙿𝚃𝙸𝙾𝙽 𝙰𝙽𝙳 𝙼𝙾𝚅𝙴 𝙾𝙽 !!"
+    button.append([InlineKeyboardButton("📂 ʀᴇɴᴀᴍᴇ ᴀs ғɪʟᴇ📂", callback_data="rename_file")])
   # Thanks to albert for mime_type suggestion 
     if media.mime_type.startswith("video/"):
     ## how the f the other formats can be uploaded as video 
-      button.append([InlineKeyboardButton("🎞️ Rename as Video 🎞️",callback_data="rename_video")])
-      button.append([InlineKeyboardButton("🎞️ Convert to File 📂",callback_data="convert_file")])
-      button.append([InlineKeyboardButton("📂 Convert to Video 🎞️",callback_data="convert_video")])
-    button.append([InlineKeyboardButton("Cancel ❌",callback_data="cancel")])
+      button.append([InlineKeyboardButton("🎞️ ʀᴇɴᴀᴍᴇ ᴀs ᴠɪᴅᴇᴏ 🎞️",callback_data="rename_video")])
+      button.append([InlineKeyboardButton("🎞️ ᴄᴏɴᴠᴇʀᴛ ᴛᴏ ғɪʟᴇ📂",callback_data="convert_file")])
+      button.append([InlineKeyboardButton("📂 ᴄᴏɴᴠᴇʀᴛ ᴛᴏ ᴠɪᴅᴇᴏ🎞️",callback_data="convert_video")])
+    button.append([InlineKeyboardButton("𝐂𝐀𝐍𝐂𝐄𝐋 𝐓𝐇𝐄 𝐏𝐑𝐎𝐆𝐑𝐀𝐒𝐒 ❌",callback_data="cancel")])
  
     markup = InlineKeyboardMarkup(button)
     try:
