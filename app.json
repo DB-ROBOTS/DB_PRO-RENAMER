@@ -1,5 +1,5 @@
 {
-  "name": "TG-RenameBot",
+  "name": "DB_PRO-RENAMER",
   "description": "Telegram's Saassiest Ultra Pro Rename Bot",
   "keywords": [
     "telegram",
@@ -8,25 +8,25 @@
     "Convert",
     "Caption"
   ],
-  "website": "https://github.com/shamilhabeebnelli",
-  "repository": "https://github.com/shamilhabeebnelli/TG-RenamerPRO",
+  "website": "https://github.com/DB-ROBOTS",
+  "repository": "https://github.com/DB-ROBOTS/DB_PRO-RENAMER",
   "logo": "https://telegra.ph/file/b4a84dedbd9eeb2a54dff.jpg",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your bot token, Get it from @Botfather.",
-      "value": ""
+      "value": "1705260996:AAHfaDQeXP2ft11YF3OR4CMJccTeRxIK5VE""
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "2980496"
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "9415a61fedcc0f00f33667ca46e577a3""
     },
     "OWNER_ID": {
       "description": "Owner userid to use for getting logs..",
-      "value": ""
+      "value": "1086432320"
     },
     "CUSTOM_CAPTION": {
       "description": "(Optional)Custom caption to be added after file name in caption",
