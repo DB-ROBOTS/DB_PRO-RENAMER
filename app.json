@@ -22,7 +22,7 @@
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "9415a61fedcc0f00f33667ca46e577a3""
+      "value": "9415a61fedcc0f00f33667ca46e577a3"
     },
     "OWNER_ID": {
       "description": "Owner userid to use for getting logs..",
