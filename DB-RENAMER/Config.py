@@ -12,7 +12,7 @@ class Config(object):
 
   DOWNLOAD_LOCATION = "./bot/DOWNLOADS"
 
-  DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Prorenamer: Prorenamer@renamerpro.2sj6d.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+  DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Prorenamer:Prorenamer@renamerpro.2sj6d.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
   OWNER_ID = [int(i) for i in os.environ.get("OWNER_ID", "1086432320").split("1051512795")]
 
