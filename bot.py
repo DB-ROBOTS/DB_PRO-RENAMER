@@ -1,7 +1,7 @@
 
 import logging
 import os
-from mwk.config import Config
+from DB-RENAMER.config import Config
 from logging.handlers import RotatingFileHandler
 from pyrogram import Client
 
