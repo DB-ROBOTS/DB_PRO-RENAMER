@@ -14,7 +14,7 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your bot token, Get it from @Botfather.",
-      "value": ""
+      "value": "1705260996:AAHfaDQeXP2ft11YF3OR4CMJccTeRxIK5VE"
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
@@ -22,7 +22,7 @@
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "9415a61fedcc0f00f33667ca46e577a3"
     },
     "OWNER_ID": {
       "description": "Owner userid to use for getting logs..",
