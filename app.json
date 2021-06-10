@@ -10,7 +10,7 @@
   ],
   "website": "https://github.com/DB-ROBOTS",
   "repository": "https://github.com/DB-ROBOTS/DB_PRO-RENAMER",
-  "logo": "https://telegra.ph/file/b4a84dedbd9eeb2a54dff.jpg",
+  "logo": "https://telegra.ph/file/f4d89ea98f89cf1211438.jpg",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your bot token, Get it from @Botfather.",
