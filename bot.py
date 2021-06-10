@@ -1,7 +1,7 @@
 
 import logging
 import os
-from DB-RENAMER.config import Config
+from DBRENAMER.config import Config
 from logging.handlers import RotatingFileHandler
 from pyrogram import Client
 
